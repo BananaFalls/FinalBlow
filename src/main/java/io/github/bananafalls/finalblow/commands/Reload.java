@@ -2,6 +2,8 @@ package io.github.bananafalls.finalblow.commands;
 
 import io.github.bananafalls.finalblow.FinalBlow;
 import static org.bukkit.ChatColor.*;
+
+import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
@@ -18,19 +20,32 @@ public class Reload implements CommandExecutor, TabCompleter {
 
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
-        Player p = (Player) sender;
-        if(p.hasPermission("finalblow.reload")) {
-            if (args.length != 1) {
-                p.sendMessage(translateAlternateColorCodes('&', plugin.getConfig().getString("bad_arguments_message")));
-            } else if (args[0].equalsIgnoreCase("reload")) {
-                plugin.reloadConfig();
-                p.sendMessage(translateAlternateColorCodes('&', plugin.getConfig().getString("reload_message")));
+
+        if(sender instanceof Player){
+            Player p = (Player) sender;
+            if(p.hasPermission("finalblow.reload")) {
+                if (args.length != 1) {
+                    p.sendMessage(translateAlternateColorCodes('&', plugin.getConfig().getString("bad_arguments_message")));
+                } else if (args[0].equalsIgnoreCase("reload")) {
+                    plugin.reloadConfig();
+                    p.sendMessage(translateAlternateColorCodes('&', plugin.getConfig().getString("reload_message")));
+                } else {
+                    p.sendMessage(translateAlternateColorCodes('&', plugin.getConfig().getString("bad_arguments_message")));
+                }
             } else {
-                p.sendMessage(translateAlternateColorCodes('&', plugin.getConfig().getString("bad_arguments_message")));
+                p.sendMessage(translateAlternateColorCodes('&', plugin.getConfig().getString("no_permission_message")));
             }
         } else {
-            p.sendMessage(translateAlternateColorCodes('&', plugin.getConfig().getString("no_permission_message")));
+            if (args.length != 1) {
+                Bukkit.getConsoleSender().sendMessage(translateAlternateColorCodes('&', plugin.getConfig().getString("bad_arguments_message")));
+            } else if (args[0].equalsIgnoreCase("reload")) {
+                plugin.reloadConfig();
+                Bukkit.getConsoleSender().sendMessage(translateAlternateColorCodes('&', plugin.getConfig().getString("reload_message")));
+            } else {
+                Bukkit.getConsoleSender().sendMessage(translateAlternateColorCodes('&', plugin.getConfig().getString("bad_arguments_message")));
+            }
         }
+
 
 
         return false;

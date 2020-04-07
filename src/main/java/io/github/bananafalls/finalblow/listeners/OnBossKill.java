@@ -4,15 +4,12 @@ import io.github.bananafalls.finalblow.FinalBlow;
 import org.bukkit.Bukkit;
 import static org.bukkit.ChatColor.*;
 
-import org.bukkit.Sound;
-import org.bukkit.configuration.InvalidConfigurationException;
 import org.bukkit.entity.*;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.entity.EntityDeathEvent;
 import org.bukkit.plugin.Plugin;
 
-import java.text.ParseException;
 import java.util.Objects;
 
 public class OnBossKill implements Listener {
@@ -21,7 +18,7 @@ public class OnBossKill implements Listener {
 
     @EventHandler
     public void onBossKill(EntityDeathEvent e){
-        Player p = e.getEntity().getKiller(); // TEST IF MOBS KILLED BY OTHER MOBS THROW ERROR
+        Player p = e.getEntity().getKiller();
 
         if(e.getEntity() instanceof EnderDragon){
             DisplayMessage("dragon", p);

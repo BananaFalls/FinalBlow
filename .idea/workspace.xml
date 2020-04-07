@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1de073f2-f916-4c43-bd2a-7a7240f88d17" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/github/bananafalls/finalblow/commands/Reload.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/bananafalls/finalblow/commands/Reload.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/bananafalls/finalblow/listeners/OnBossKill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/bananafalls/finalblow/listeners/OnBossKill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/original-FinalBlow-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/original-FinalBlow-1.0.0.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,22 +91,22 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="2517" height="401" key="GridCell.Tab.0.bottom" timestamp="1586287349840">
+    <state width="2517" height="400" key="GridCell.Tab.0.bottom" timestamp="1586289376134">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.525.1920.1040@0.0.2560.1400" timestamp="1586287349840" />
-    <state width="2517" height="401" key="GridCell.Tab.0.center" timestamp="1586287349840">
+    <state width="2517" height="400" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.525.1920.1040@0.0.2560.1400" timestamp="1586289376134" />
+    <state width="2517" height="400" key="GridCell.Tab.0.center" timestamp="1586289376134">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.525.1920.1040@0.0.2560.1400" timestamp="1586287349840" />
-    <state width="2517" height="401" key="GridCell.Tab.0.left" timestamp="1586287349840">
+    <state width="2517" height="400" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.525.1920.1040@0.0.2560.1400" timestamp="1586289376134" />
+    <state width="2517" height="400" key="GridCell.Tab.0.left" timestamp="1586289376134">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.525.1920.1040@0.0.2560.1400" timestamp="1586287349840" />
-    <state width="2517" height="401" key="GridCell.Tab.0.right" timestamp="1586287349840">
+    <state width="2517" height="400" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.525.1920.1040@0.0.2560.1400" timestamp="1586289376134" />
+    <state width="2517" height="400" key="GridCell.Tab.0.right" timestamp="1586289376134">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.525.1920.1040@0.0.2560.1400" timestamp="1586287349840" />
+    <state width="2517" height="400" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.525.1920.1040@0.0.2560.1400" timestamp="1586289376134" />
     <state x="782" y="343" key="SettingsEditor" timestamp="1586288435230">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
