@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1de073f2-f916-4c43-bd2a-7a7240f88d17" name="Default Changelist" comment="" />
+    <list default="true" id="1de073f2-f916-4c43-bd2a-7a7240f88d17" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/bananafalls/finalblow/commands/Reload.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/bananafalls/finalblow/commands/Reload.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +20,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/. BuildTools/BuildData" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -36,6 +41,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -100,6 +106,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="2517" height="401" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.525.1920.1040@0.0.2560.1400" timestamp="1586287349840" />
+    <state x="782" y="343" key="SettingsEditor" timestamp="1586288435230">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="782" y="343" key="SettingsEditor/0.0.2560.1400/-1920.525.1920.1040@0.0.2560.1400" timestamp="1586288435230" />
     <state x="937" y="331" width="672" height="677" key="run.anything.popup" timestamp="1586279255048">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

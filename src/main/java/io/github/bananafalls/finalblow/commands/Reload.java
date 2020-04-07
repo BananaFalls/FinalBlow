@@ -19,14 +19,19 @@ public class Reload implements CommandExecutor, TabCompleter {
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
         Player p = (Player) sender;
-        if(args.length != 1){
-            p.sendMessage(translateAlternateColorCodes('&', plugin.getConfig().getString("bad_arguments_message")));
-        } else if(args[0].equalsIgnoreCase("reload")){
-            plugin.reloadConfig();
-            p.sendMessage(translateAlternateColorCodes('&', plugin.getConfig().getString("reload_message")));
+        if(p.hasPermission("finalblow.reload")) {
+            if (args.length != 1) {
+                p.sendMessage(translateAlternateColorCodes('&', plugin.getConfig().getString("bad_arguments_message")));
+            } else if (args[0].equalsIgnoreCase("reload")) {
+                plugin.reloadConfig();
+                p.sendMessage(translateAlternateColorCodes('&', plugin.getConfig().getString("reload_message")));
+            } else {
+                p.sendMessage(translateAlternateColorCodes('&', plugin.getConfig().getString("bad_arguments_message")));
+            }
         } else {
-            p.sendMessage(translateAlternateColorCodes('&', plugin.getConfig().getString("bad_arguments_message")));
+            p.sendMessage(translateAlternateColorCodes('&', plugin.getConfig().getString("no_permission_message")));
         }
+
 
         return false;
     }

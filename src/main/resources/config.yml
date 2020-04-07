@@ -13,3 +13,6 @@ reload_message: '&a&lRELOADED! &aFinalBlow config reloaded!'
 
 # The message to display when arguments are incorrect
 bad_arguments_message: '&c&lBAD ARGS! &cIncorrect arguments! Usage: /finalblow reload'
+
+# The message to display when the user doesn't have permission for a command
+no_permission_message: '&c&lNO PERMISSION! &cYou do not have permission to perform this command!'
