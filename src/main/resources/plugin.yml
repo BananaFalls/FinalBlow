@@ -1,0 +1,9 @@
+name: FinalBlow
+version: ${project.version}
+main: io.github.bananafalls.finalblow.FinalBlow
+api-version: 1.13
+authors: [BananaFalls]
+description: Send in chat who got the final blow on the Ender Dragon or Wither
+commands:
+  finalblow:
+    description: Reload the FinalBlow config

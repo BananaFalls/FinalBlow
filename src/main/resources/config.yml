@@ -1,0 +1,15 @@
+# FinalBlow 1.0.0 by BananaFalls (https://github.com/BananaFalls)
+# If you want to use apostrophes in the message, make sure to use two. ex. "he''s", "it''s". Otherwise it'll error out.
+
+# The message that is displayed when a boss is killed
+death_message: '&d&l%boss% DOWN! &d%player% got the final blow!'
+
+# The names of the bosses to use in place of %boss%
+dragon_name: 'DRAGON'
+wither_name: 'WITHER'
+
+# The message to display when reloading the plugin
+reload_message: '&a&lRELOADED! &aFinalBlow config reloaded!'
+
+# The message to display when arguments are incorrect
+bad_arguments_message: '&c&lBAD ARGS! &cIncorrect arguments! Usage: /finalblow reload'
